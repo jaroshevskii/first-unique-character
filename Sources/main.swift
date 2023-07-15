@@ -48,6 +48,8 @@ But do not program in COBOL if you can avoid it.
         -- Geoffrey James, "The Tao of Programming"
 """
 
+print(text, terminator: "\n\n")
+
 // Find the first unique character in the text.
 if let character = firstUniqueCharacter(in: text) {
   print("The first unique character in the text is '\(character)'.")
