@@ -2,6 +2,8 @@
 
 This program finds the first unique character in a given text.
 
+[![Run in Replit](https://img.shields.io/badge/Run%20in-Replit-%20?logo=replit&labelColor=white&color=%23F26207)](https://replit.com/@Jaroshevskii/first-unique-character?v=1)
+
 ## Getting Started
 
 To run the program, follow these steps:
