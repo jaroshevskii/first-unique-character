@@ -1,5 +1,4 @@
-compile = "swift build"
-run = "swift run --skip-build"
+run = "swift run"
 entrypoint = "Sources/main.swift"
 
 hidden = [".build", ".git"]
