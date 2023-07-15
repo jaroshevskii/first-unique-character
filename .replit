@@ -1,0 +1,16 @@
+compile = "swift build"
+run = "swift run --skip-build"
+entrypoint = "Sources/main.swift"
+
+hidden = [".build", ".git"]
+
+[nix]
+channel = "stable-22_11"
+
+[languages]
+
+[languages.swift]
+pattern = "**/*.swift"
+
+[languages.swift.languageServer]
+start = "sourcekit-lsp"
