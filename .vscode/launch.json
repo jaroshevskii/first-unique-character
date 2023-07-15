@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug FirstUniqeCharacter",
+      "program": "${workspaceFolder:first-unique-character}/.build/debug/FirstUniqeCharacter",
+      "args": [],
+      "cwd": "${workspaceFolder:first-unique-character}",
+      "preLaunchTask": "swift: Build Debug FirstUniqeCharacter"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release FirstUniqeCharacter",
+      "program": "${workspaceFolder:first-unique-character}/.build/release/FirstUniqeCharacter",
+      "args": [],
+      "cwd": "${workspaceFolder:first-unique-character}",
+      "preLaunchTask": "swift: Build Release FirstUniqeCharacter"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug FirstUniqueCharacter",
+      "program": "${workspaceFolder:first-unique-character}/.build/debug/FirstUniqueCharacter",
+      "args": [],
+      "cwd": "${workspaceFolder:first-unique-character}",
+      "preLaunchTask": "swift: Build Debug FirstUniqueCharacter"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release FirstUniqueCharacter",
+      "program": "${workspaceFolder:first-unique-character}/.build/release/FirstUniqueCharacter",
+      "args": [],
+      "cwd": "${workspaceFolder:first-unique-character}",
+      "preLaunchTask": "swift: Build Release FirstUniqueCharacter"
+    }
+  ]
+}
