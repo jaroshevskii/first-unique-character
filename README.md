@@ -65,5 +65,4 @@ There are no unique characters in the text.
 
 ## License
 
-Licensed under the [MIT license](LICENSE).
-
+Licensed under the [MIT License](LICENSE).
