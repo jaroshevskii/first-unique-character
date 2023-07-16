@@ -2,13 +2,15 @@
 
 This program finds the first unique character in a given text.
 
-## How to Run
+## Getting Started
+
+### Run in Replit
 
 The easiest way to run the program is through Replit. Click the button below to instantly launch the program in Replit.
 
 [![Run in Replit](https://img.shields.io/badge/Run%20in-Replit-%20?logo=replit&labelColor=white&color=%23F26207)](https://replit.com/@Jaroshevskii/first-unique-character?v=1)
 
-### Running Locally
+### Run Locally
 
 To run the program locally, follow these steps:
 
