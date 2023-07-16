@@ -1,3 +1,4 @@
+compile = "swift package clean"
 run = "swift run"
 entrypoint = "Sources/main.swift"
 
