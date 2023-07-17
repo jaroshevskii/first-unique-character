@@ -2,6 +2,8 @@
 
 This program finds the first unique character in a given text.
 
+![Cover](https://github.com/jaroshevskii/first-unique-character/assets/72662383/678411fa-9b8d-4582-a824-e3d6dc7a494b)
+
 ## Getting Started
 
 ### Run in Replit
@@ -27,20 +29,20 @@ cd first-unique-character
 swift run
 ```
 
-## How It Works
+## How it works
 
-The program defines the function `firstUniqueCharacter(in text: String) -> Character?`, which takes text as input and returns the first unique character found in the text, or `nil` if there are no unique characters.
+The program defines the function `firstUniqueCharacter(in text: String) -> Character?', which takes text as input and returns the first unique character found in the text, or `nil' if there are no unique characters.
 
 The function performs the following steps to find the first unique character:
 
 1. Splits the input text into separate words using `.whitespacesAndNewlines` as a delimiter.
-2. Initialize an empty array `uniqueCharacters` to store the found unique characters from each word.
-3. Search for each word in the text.
-4. For each word, iterate over each character in the word.
-5. Check if a character appears only once in a word.
-6. If the character is unique in the word, add it to the `uniqueCharacters` array and break the loop.
-7. After processing all the words, iterate over the unique characters in the `uniqueCharacters` array.
-8. Return the first character that occurs only once, or `nil` if no unique characters are found.
+2. Initializes an empty array `uniqueCharacters` to store the found unique characters from each word.
+3. Searches for each word in the text.
+4. For each word, iterates over each character in the word.
+5. Checks if a character appears only once in a word.
+6. If the character is unique in the word, adds it to the `uniqueCharacters` array and exits the loop.
+7. After processing all the words, it iterates over the unique characters in the `uniqueCharacters` array.
+8. Returns the first character that occurs only once, or `nil` if no unique characters are found.
 
 ## Example
 
