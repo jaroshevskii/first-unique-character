@@ -31,7 +31,7 @@ swift run
 
 ## How it works
 
-The program defines the function `firstUniqueCharacter(in text: String) -> Character?', which takes text as input and returns the first unique character found in the text, or `nil' if there are no unique characters.
+The program defines the function `firstUniqueCharacter(in text: String) -> Character?`, which takes text as input and returns the first unique character found in the text, or `nil' if there are no unique characters.
 
 The function performs the following steps to find the first unique character:
 
