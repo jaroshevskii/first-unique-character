@@ -1,6 +1,8 @@
-compile = "swift package clean"
 run = "swift run"
-entrypoint = "Sources/main.swift"
+
+compile = "swift build || swift package clean && clear"
+
+entrypoint = "README.md"
 
 hidden = [".build", ".git"]
 
