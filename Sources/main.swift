@@ -1,6 +1,6 @@
 //
-// main.swift
-// FirstUniqueCharacter
+//  main.swift
+//  FirstUniqueCharacter
 //
 
 import Foundation
